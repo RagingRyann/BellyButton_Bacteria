@@ -150,7 +150,7 @@ function buildCharts(sample) {
       mode: "gauge+number", 
       gauge: {
         axis: {range: [null, 10], tickwidth: 1, tickcolor: "RebeccaPurple"}, 
-        bar: { color: "RebeccaPurple" },
+        bar: { color: "lightblue" },
         bgcolor: "gray",
         borderwidth: 2, 
         bordercolor: "black",
@@ -158,8 +158,8 @@ function buildCharts(sample) {
           {range: [0,2], color: "red"},
           {range: [2,4], color: "orange"},
           {range: [4,6], color: "yellow"},
-          {range: [6,8], color: "green"},
-          {range: [8,10], color: "blue"},
+          {range: [6,8], color: "lightgreen"},
+          {range: [8,10], color: "green"},
         ]
       }
     };
@@ -171,7 +171,7 @@ function buildCharts(sample) {
       width: 500,
       height: 400,
       margin: {t:25, r:25, l:25, b:25},
-      font: {color: "purple", family: "Helvetica"}
+      font: {color: "black", family: "Helvetica"}
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
